@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // $("form#animal").submit(function(event) {
-  $("#formOne").submit(function(event) {
+  $("#nameInput").submit(function(event) {
     event.preventDefault();
     var username = $("input#username").val();
     $(".username").text(username);
