@@ -4,15 +4,16 @@ $(document).ready(function() {
     $("#nameInput").submit(function(event) {
       var username = $("input#username").val();
       $(".username").text(username);
+    })
 
     $("form#quiz").submit(function(event) {
-        console.log ();
-      var quiz = parseInt($("value#animal").val());
-        if ('animal' === 4)
-        // var movie = parseInt($("select#movie").val();
+      var score = parseInt($("#animal").val());
 
-        $("#quizresult1").show();
-      }) else {}
-        $("#quizresult2").show();
+        console.log ();
+      if (score === 4)
+        $("#quizresult1").show(text);
+        // var movie = parseInt($("select#movie").val();
+      } else } {
+        $("#quizresult2").show(text);
     });
   });
