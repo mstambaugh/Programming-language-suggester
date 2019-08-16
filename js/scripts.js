@@ -1,10 +1,10 @@
-$(document).ready(function(){
+$(document).ready(function() {
   // $("form#animal").submit(function(event) {
-  $("form#quizresult").submit(function(event) {
-    var username= $("input#username").val();
-    $("#username").text(usernameInput);
-    // $("#quizresult").show();
+  $("#formOne").submit(function(event) {
     event.preventDefault();
+    var username = $("input#username").val();
+    $(".username").text(username);
+    $("#quizresult").show();
   });
 });
 
