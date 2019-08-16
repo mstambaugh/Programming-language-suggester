@@ -1,8 +1,8 @@
-# 
+#
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Quiz Page utilizing HTML, CSS, Bootstrap css, _
 
-#### By _**{List of contributors}**_
+#### By _**Molly Stambaugh**_
 
 ## Description
 

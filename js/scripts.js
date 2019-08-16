@@ -8,12 +8,11 @@ $(document).ready(function() {
     $("form#quiz").submit(function(event) {
       var score = parseInt($("value#animal").val();
 
-      console.log ();
+      console.log (score);
       if (score < 4)
         $("#quizresult1").append(text);
         // var movie = parseInt($("select#movie").val();
         else if (score < 3)
         $("#quizresult2").show(text);
         event.preventDefault();
-      })
     });
