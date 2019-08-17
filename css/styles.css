@@ -1,15 +1,18 @@
 .btn {
   display: block;
 }
-/* #quizresult1 {
-  display:
-} */
-/* #quizresult2 {
+#quizresult1 {
+  display: none;
+}
+#quizresult2 {
   display: none;
 }
 #quizresult3 {
   display: none;
-} */
+}
+#quizresult4 {
+  display: none;
+}
 
 /* body {
   background-color: #353535

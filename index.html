@@ -3,7 +3,7 @@
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.4.1.js"></script>
-  <!-- <script src="js/scripts.js"></script> -->
+  <script src="js/scripts.js"></script>
   <title>Programming language suggester</title>
 </head>
 
@@ -11,12 +11,12 @@
   <div class="container">
     <h1>Programming Language Suggester</h1>
 
-    <form id="nameInput">
-      <div class="form-group">
-        <label for="username">What is your name</label>
-        <input id="username" class="form-control" type="text">
-      </div>
-    </form>
+
+    <div class="form-group">
+      <label for="username">What is your name</label>
+      <input id="username" class="form-control" type="text">
+    </div>
+
 
     <h2>Respond to the following questions and find out which programming language is most suited to your personality!</h2>
 
@@ -28,9 +28,9 @@
         <option value="3">horse</option>
         <option value="4">squirrel</option>
       </select>
-<!--
+
       <h3>Choose a Tiki drink</h3>
-      <select class="form-control" id="alchoholic drink">
+      <select class="form-control" id="drink">
         <option value="1">dog</option>
         <option value="2">cat</option>
         <option value="3">horse</option>
@@ -42,9 +42,10 @@
         <option value="1">that one with foxes</option>
         <option value="2">that one with dogs</option>
         <option value="3">that one with boy scouts and Edward Norton</option>
-        <option value="4">any of the dysfunctional rich white family options</option>
+        <option value="4">any of the other dysfunctional rich white family options</option>
       </select>
 
+      <h3>TV SHOW</h3>
       <select class="form-control" id="show">
         <option value="1"></option>
         <option value="2">cat</option>
@@ -52,34 +53,45 @@
         <option value="4">squirrel</option>
       </select>
 
-
-      <select class="form-control" id="level of the Inferno">
+      <h3>SONG</h3>
+      <select class="form-control" id="song">
         <option value="1">dog</option>
         <option value="2">cat</option>
         <option value="3">horse</option>
         <option value="4">squirrel</option>
-      </select> -->
+      </select>
 
-      <button type="submit" class="btn">Result</button>
 
+      <button id="resultbtn">Result</button>
+
+
+      <div id="quizresult1">
+        <h1>Javascript!</h1>
+        <p>
+          That's right, <span class="username"></span>, your life's purpose is to learn Javascript. (insert reasons here)
+        </p>
+      </div>
+
+      <div id="quizresult2">
+        <h1>Python!</h1>
+        <p>
+          That's right, <span class="username"></span>, your life's purpose is to learn Python. (insert reasons here)
+        </p>
+      </div>
+
+      <div id="quizresult3">
+        <h1>Ruby!</h1>
+        <p>
+          That's right, <span class="username"></span>, your life's purpose is to learn Ruby. (insert reasons here)
+        </p>
+      </div>
+
+      <div id="quizresult4">
+        <h1>C#!</h1>
+        <p>
+          That's right, <span class="username"></span>, your life's purpose is to learn C#. (insert reasons here)
+        </p>
+      </div>
     </form>
-
-
-    <div id="quizresult1">
-      <h1>Javascript!</h1>
-      <p>
-        That's right, <span class="username"></span>, your life's purpose is to learn Javascript. (insert reasons here)
-      </p>
-    </div>
-
-    <div id="quizresult2">
-      <h1>Python!</h1>
-      <p>
-        That's right, <span class="username"></span>, your life's purpose is to learn Python. (insert reasons here)
-      </p>
-    </div>
-
-
-
   </div>
 </body>

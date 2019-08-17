@@ -1,41 +1,25 @@
 $(document).ready(function() {
-  var score = 0;
-  function displayText() {
-    score = score + $("#quiz").val();
-    if () {
 
+  $("#resultbtn").click(function(event) {
+    event.preventDefault();
+    var score = parseInt($("#animal").val()) + parseInt($("#drink").val()) + parseInt($("#movie").val()) + parseInt($("#show").val()) + parseInt($("#song").val());
+
+    var username = $("input#username").val();
+    $(".username").text(username);
+    if (score <= 5) {
+      $("#quizresult1").show();
     }
 
-  }
+    else if (score <=10 && score > 5) {
+      $("#quizresult2").show();
+    }
 
+    else if (score <=15 && score > 10) {
+      $("#quizresult3").show();
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // $("form#animal").submit(function(event) {
-    // $("form#nameInput").submit(function(event) {
-    //   var username = $("input#username").val();
-    //   $(".username").text(username);
-    // })
-    //
-    // $("form#quiz").submit(function(event) {
-    //   var score = parseInt($("value#animal").val();
-    //
-    //   console.log (score);
-    //   if (score < 4)
-    //     $("#quizresult1").append(text);
-    //     // var movie = parseInt($("select#movie").val();
-    //     else if (score < 3)
-    //     $("#quizresult2").show(text);
-    //     event.preventDefault();
-    });
+    else {
+      $("#quizresult4").show();
+    }
+  });
+});
