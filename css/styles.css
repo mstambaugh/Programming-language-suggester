@@ -14,6 +14,25 @@
   display: none;
 }
 
-/* body {
-  background-color: #353535
-} */
+body {
+  background-image: url('../img/matrix.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+h1 {
+  color:white;
+  font-family: courier;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: courier;
+  font-weight: bold;
+  color: white;
+}
+h3 {
+  font-family: courier;
+  font-weight: bold;
+  color: white;
+}
