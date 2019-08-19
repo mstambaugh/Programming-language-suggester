@@ -45,4 +45,14 @@ label {
   color:red;
   font-family: courier;
   font-weight: bold;
+  font-size: 30px;
+}
+button {
+  color: white;
+  background-color: blue;
+  border-color: green;
+  border-style: dashed;
+  font-family: courier;
+  margin-top: 8px;
+  font-size: 30px;
 }
