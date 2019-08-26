@@ -11,7 +11,7 @@ _{This application utilizes drop down boxes to provide users with suggestions fo
 ## Setup/Installation Requirements
 
 * _Clone from Github_
-* _URL https://github.com/mstambaugh/Programming-language-suggester.git_
+* _URL https://mstambaugh.github.io/Programming-language-suggester/
 * _open with text editor_
 
 ## Known Bugs
